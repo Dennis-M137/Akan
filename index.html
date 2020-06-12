@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Akan names</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row jumbotron">
+            <h1>Amazing Facts about Ghanaian Naming System</h1>
+        </div>
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-sm-12 col-md-12">
+                    <article>
+                        <p>Ghana has an amazing naming system where new born are named accroding to the day of the week that they were born in.</p>
+                        <p>This system is Known as AKAN</p>
+                        <h1>Fill out your Birthday and Gender to know your Name</h1>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-md-4">
+                    <form>
+                        <div class="resulted">
+                            <p id="result"></p>
+                        </div>
+                        <div>
+                            <input type="number" id="yob" placeholder="Year" required>
+                        </div>
+                        <div>
+                            <input type="number" id="month" placeholder="Month" required >
+                        </div>
+                        <div>
+                            <input type="number" id="day" placeholder="Week" required >
+                        </div>
+                        <div id="gend"  class="checkbox">
+                            Male<input type="radio" value="male" id="male" name="gender">
+                            Female<input type="radio" value="female" id="female" name="gender">
+                        </div>
+                        <div>
+                            <input type="button" value="Find out" onclick="getName();" class="btn btn-primary">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-5 col-md-6 img-responsive img-rounded">
+                    <img src="images/flag.jpg" alt="Presidential palace">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="bootsrap.js"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
